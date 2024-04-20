@@ -13,7 +13,7 @@ export default function CoreConcept({ image, title, description }) {
     <li>
       <img src={image} alt={title}></img>
       <h3>{title}</h3>
-      <p3>{description}</p3>
+      <p>{description}</p>
     </li>
   );
 }
